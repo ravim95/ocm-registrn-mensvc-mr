@@ -8,8 +8,8 @@ RUN npm install
 
 COPY . .
 
-ENV HOST=0.0.0.0 PORT=3001
+ENV HOST=0.0.0.0 PORT=3000
 
-EXPOSE 3001/tcp
+EXPOSE 3000/tcp
 
 CMD [ "node", "app.js" ]
