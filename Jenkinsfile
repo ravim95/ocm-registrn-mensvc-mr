@@ -363,7 +363,7 @@ spec:
             }
             stage('Health Check') {
                 sh '''#!/bin/bash
-                    echo "Successfully SKIPPed health endpoint: health"
+                    echo "Successfully SKIPPED health endpoint: health"
                     echo "====================================================================="
                 '''
             }
