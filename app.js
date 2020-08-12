@@ -17,7 +17,7 @@ app.use(cors())
 
 //connect to mongodb instance where database is ocm
 //mongoose.connect('mongodb://127.0.0.1:27017/ocm')
-mongoose.connect('mongodb+srv://mongouser:mongouser@172.21.227.31:27017/ocm')
+mongoose.connect('mongodb://mongouser:mongouser@172.21.227.31:27017/ocm')
 //save new registration
 app.post('/register', (req, res, next) => {
  //create new registration using schema
