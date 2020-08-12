@@ -49,6 +49,8 @@ app.get('/register', (req, res, next) => {
     else { res.json(result) }
   })
 })
+app.get('/health', (req, res, next) => res.send('Health is good!'))
+
 //listen on port 3000
 app.listen(3000, () => {
  console.log('Server listening on port 3000')
