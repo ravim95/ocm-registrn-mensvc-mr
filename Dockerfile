@@ -17,4 +17,4 @@ ENV HOST=0.0.0.0 PORT=3001
 
 EXPOSE 3001/tcp
 
-CMD npm run serve
+CMD [ "node", "app.js" ]
